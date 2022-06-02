@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>THE WEATHER GENIE</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="crs.min.js"></script>
+  <link rel="stylesheet" href="assets/css/geodatasource-countryflag-round.css">
+</head>
+<body>
+  <h3 class="heading">THE WEATHER GENIE</h3>
+  <div>
+    <select class="crs-country" data-region-id="input1" ></select>
+</div>
+<p class="region-text">Regions </p>
+<div>
+    <select id="input1" class="region" ></select>
+</div>
+<input type="submit" value="Submit" class="submit">
+<script src="source-crs.js"></script>
+
+
+  <div class="container">
+    <div class="card">
+      <h1 class="name" id="name"></h1>
+      <p class="temp"></p>
+      <p class="clouds"></p>
+      <p class="desc"></p>
+    </div>
+  </div>
+<script src="app.js"></script>
+</body>
+</html>

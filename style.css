@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+body{
+    font-family: "Nunito",sans-serif;
+    background: #E0E0E2 ;
+}
+
+.heading{
+    text-align: center;
+    color: #189762;
+    font-size: 40px;
+    text-decoration: underline;
+    margin-top: 30px;
+
+}
+input[type="submit"]{
+    padding: 15px 30px;
+    background: #81D2C7;
+    border: none;
+    border-radius: 1px;
+    font-family: "Nunito",sans-serif;
+    font-weight:bold;
+    font-size: 20px;
+    margin-left: calc(45%);
+    margin-top: 20px;
+
+}
+
+
+.card{
+    width: 50%;
+    background: #E0E0E2;
+    height: 40vh;
+    margin: 50px auto;
+    border-radius: 2px;
+}
+
+.card h1{
+    text-align: center;
+    padding: 5px 0;
+    color: #416788;
+}
+.card p{
+    text-align: center;
+    margin:20px 0;
+    font-size:20px;
+    padding-bottom: 5px;
+    color: #416788;
+
+
+}
+.crs-country{
+    padding: 15px 30px;
+    background: #e4fffb;
+    border: none;
+    border-radius: 1px;
+    font-family: "Nunito",sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 400px;
+    margin-top: 100px;
+    margin-left: calc(29%);
+
+}
+.region{
+    padding: 15px 30px;
+    background: #e4fffb;
+    border: none;
+    border-radius: 1px;
+    font-family: "Nunito",sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin-left: calc(29%);
+    margin-top: 20px;
+
+}
+.region-text{
+    margin-left: 400px;
+    margin-top: 20px;
+    margin-left: calc(29%);
+    
+}
